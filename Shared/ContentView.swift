@@ -7,10 +7,25 @@
 
 import SwiftUI
 
+struct Food: Hashable, Codable{
+    
+}
+
 class ViewModel: ObservableObject {
     
     func fetch() {
-        guard let url = url(string:)
+        guard let url = URL(string:
+                                "https://themealdb.com/api.php") else {
+            return
+        }
+    
+    let task = URLSession.shared.dataTask(with: url) {data, , error in
+        guard let data = data, error == nil else {
+                return
+            }
+            // Convert to JSON
+        
+        }
     }
 }
 
