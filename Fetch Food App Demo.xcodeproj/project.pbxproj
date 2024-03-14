@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99F33AD82BA27E4C002BA3AA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F33AD72BA27E4C002BA3AA /* Tests_iOS.swift */; };
+		99F33ADA2BA27E4C002BA3AA /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F33AD92BA27E4C002BA3AA /* Tests_iOSLaunchTests.swift */; };
+		99F33AE42BA27E4C002BA3AA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F33AE32BA27E4C002BA3AA /* Tests_macOS.swift */; };
+		99F33AE62BA27E4C002BA3AA /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F33AE52BA27E4C002BA3AA /* Tests_macOSLaunchTests.swift */; };
+		99F33AE72BA27E4C002BA3AA /* Fetch_Food_App_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F33ABF2BA27E47002BA3AA /* Fetch_Food_App_DemoApp.swift */; };
+		99F33AE82BA27E4C002BA3AA /* Fetch_Food_App_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F33ABF2BA27E47002BA3AA /* Fetch_Food_App_DemoApp.swift */; };
+		99F33AE92BA27E4C002BA3AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F33AC02BA27E47002BA3AA /* ContentView.swift */; };
+		99F33AEA2BA27E4C002BA3AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F33AC02BA27E47002BA3AA /* ContentView.swift */; };
+		99F33AEB2BA27E4C002BA3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F33AC12BA27E4C002BA3AA /* Assets.xcassets */; };
+		99F33AEC2BA27E4C002BA3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F33AC12BA27E4C002BA3AA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99F33AD42BA27E4C002BA3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F33ABA2BA27E47002BA3AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F33AC52BA27E4C002BA3AA;
+			remoteInfo = "Fetch Food App Demo (iOS)";
+		};
+		99F33AE02BA27E4C002BA3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99F33ABA2BA27E47002BA3AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99F33ACB2BA27E4C002BA3AA;
+			remoteInfo = "Fetch Food App Demo (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99F33ABF2BA27E47002BA3AA /* Fetch_Food_App_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Food_App_DemoApp.swift; sourceTree = "<group>"; };
+		99F33AC02BA27E47002BA3AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		99F33AC12BA27E4C002BA3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99F33AC62BA27E4C002BA3AA /* Fetch Food App Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Food App Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F33ACC2BA27E4C002BA3AA /* Fetch Food App Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Food App Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F33ACE2BA27E4C002BA3AA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		99F33AD32BA27E4C002BA3AA /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F33AD72BA27E4C002BA3AA /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		99F33AD92BA27E4C002BA3AA /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		99F33ADF2BA27E4C002BA3AA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F33AE32BA27E4C002BA3AA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		99F33AE52BA27E4C002BA3AA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F33AC32BA27E4C002BA3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F33AC92BA27E4C002BA3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F33AD02BA27E4C002BA3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F33ADC2BA27E4C002BA3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99F33AB92BA27E47002BA3AA = {
+			isa = PBXGroup;
+			children = (
+				99F33ABE2BA27E47002BA3AA /* Shared */,
+				99F33ACD2BA27E4C002BA3AA /* macOS */,
+				99F33AD62BA27E4C002BA3AA /* Tests iOS */,
+				99F33AE22BA27E4C002BA3AA /* Tests macOS */,
+				99F33AC72BA27E4C002BA3AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99F33ABE2BA27E47002BA3AA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				99F33ABF2BA27E47002BA3AA /* Fetch_Food_App_DemoApp.swift */,
+				99F33AC02BA27E47002BA3AA /* ContentView.swift */,
+				99F33AC12BA27E4C002BA3AA /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		99F33AC72BA27E4C002BA3AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99F33AC62BA27E4C002BA3AA /* Fetch Food App Demo.app */,
+				99F33ACC2BA27E4C002BA3AA /* Fetch Food App Demo.app */,
+				99F33AD32BA27E4C002BA3AA /* Tests iOS.xctest */,
+				99F33ADF2BA27E4C002BA3AA /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99F33ACD2BA27E4C002BA3AA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				99F33ACE2BA27E4C002BA3AA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		99F33AD62BA27E4C002BA3AA /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				99F33AD72BA27E4C002BA3AA /* Tests_iOS.swift */,
+				99F33AD92BA27E4C002BA3AA /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		99F33AE22BA27E4C002BA3AA /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				99F33AE32BA27E4C002BA3AA /* Tests_macOS.swift */,
+				99F33AE52BA27E4C002BA3AA /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99F33AC52BA27E4C002BA3AA /* Fetch Food App Demo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F33AEF2BA27E4C002BA3AA /* Build configuration list for PBXNativeTarget "Fetch Food App Demo (iOS)" */;
+			buildPhases = (
+				99F33AC22BA27E4C002BA3AA /* Sources */,
+				99F33AC32BA27E4C002BA3AA /* Frameworks */,
+				99F33AC42BA27E4C002BA3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fetch Food App Demo (iOS)";
+			productName = "Fetch Food App Demo (iOS)";
+			productReference = 99F33AC62BA27E4C002BA3AA /* Fetch Food App Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99F33ACB2BA27E4C002BA3AA /* Fetch Food App Demo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F33AF22BA27E4C002BA3AA /* Build configuration list for PBXNativeTarget "Fetch Food App Demo (macOS)" */;
+			buildPhases = (
+				99F33AC82BA27E4C002BA3AA /* Sources */,
+				99F33AC92BA27E4C002BA3AA /* Frameworks */,
+				99F33ACA2BA27E4C002BA3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fetch Food App Demo (macOS)";
+			productName = "Fetch Food App Demo (macOS)";
+			productReference = 99F33ACC2BA27E4C002BA3AA /* Fetch Food App Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99F33AD22BA27E4C002BA3AA /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F33AF52BA27E4C002BA3AA /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				99F33ACF2BA27E4C002BA3AA /* Sources */,
+				99F33AD02BA27E4C002BA3AA /* Frameworks */,
+				99F33AD12BA27E4C002BA3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F33AD52BA27E4C002BA3AA /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 99F33AD32BA27E4C002BA3AA /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		99F33ADE2BA27E4C002BA3AA /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F33AF82BA27E4C002BA3AA /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				99F33ADB2BA27E4C002BA3AA /* Sources */,
+				99F33ADC2BA27E4C002BA3AA /* Frameworks */,
+				99F33ADD2BA27E4C002BA3AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F33AE12BA27E4C002BA3AA /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 99F33ADF2BA27E4C002BA3AA /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F33ABA2BA27E47002BA3AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					99F33AC52BA27E4C002BA3AA = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					99F33ACB2BA27E4C002BA3AA = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					99F33AD22BA27E4C002BA3AA = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 99F33AC52BA27E4C002BA3AA;
+					};
+					99F33ADE2BA27E4C002BA3AA = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 99F33ACB2BA27E4C002BA3AA;
+					};
+				};
+			};
+			buildConfigurationList = 99F33ABD2BA27E47002BA3AA /* Build configuration list for PBXProject "Fetch Food App Demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99F33AB92BA27E47002BA3AA;
+			productRefGroup = 99F33AC72BA27E4C002BA3AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99F33AC52BA27E4C002BA3AA /* Fetch Food App Demo (iOS) */,
+				99F33ACB2BA27E4C002BA3AA /* Fetch Food App Demo (macOS) */,
+				99F33AD22BA27E4C002BA3AA /* Tests iOS */,
+				99F33ADE2BA27E4C002BA3AA /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F33AC42BA27E4C002BA3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F33AEB2BA27E4C002BA3AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F33ACA2BA27E4C002BA3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F33AEC2BA27E4C002BA3AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F33AD12BA27E4C002BA3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F33ADD2BA27E4C002BA3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99F33AC22BA27E4C002BA3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F33AE92BA27E4C002BA3AA /* ContentView.swift in Sources */,
+				99F33AE72BA27E4C002BA3AA /* Fetch_Food_App_DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F33AC82BA27E4C002BA3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F33AEA2BA27E4C002BA3AA /* ContentView.swift in Sources */,
+				99F33AE82BA27E4C002BA3AA /* Fetch_Food_App_DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F33ACF2BA27E4C002BA3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F33ADA2BA27E4C002BA3AA /* Tests_iOSLaunchTests.swift in Sources */,
+				99F33AD82BA27E4C002BA3AA /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F33ADB2BA27E4C002BA3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F33AE62BA27E4C002BA3AA /* Tests_macOSLaunchTests.swift in Sources */,
+				99F33AE42BA27E4C002BA3AA /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99F33AD52BA27E4C002BA3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F33AC52BA27E4C002BA3AA /* Fetch Food App Demo (iOS) */;
+			targetProxy = 99F33AD42BA27E4C002BA3AA /* PBXContainerItemProxy */;
+		};
+		99F33AE12BA27E4C002BA3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99F33ACB2BA27E4C002BA3AA /* Fetch Food App Demo (macOS) */;
+			targetProxy = 99F33AE02BA27E4C002BA3AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99F33AED2BA27E4C002BA3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99F33AEE2BA27E4C002BA3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		99F33AF02BA27E4C002BA3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.Fetch-Food-App-Demo";
+				PRODUCT_NAME = "Fetch Food App Demo";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99F33AF12BA27E4C002BA3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.Fetch-Food-App-Demo";
+				PRODUCT_NAME = "Fetch Food App Demo";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99F33AF32BA27E4C002BA3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.Fetch-Food-App-Demo";
+				PRODUCT_NAME = "Fetch Food App Demo";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		99F33AF42BA27E4C002BA3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.Fetch-Food-App-Demo";
+				PRODUCT_NAME = "Fetch Food App Demo";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		99F33AF62BA27E4C002BA3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Food App Demo (iOS)";
+			};
+			name = Debug;
+		};
+		99F33AF72BA27E4C002BA3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Food App Demo (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99F33AF92BA27E4C002BA3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fetch Food App Demo (macOS)";
+			};
+			name = Debug;
+		};
+		99F33AFA2BA27E4C002BA3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MM.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fetch Food App Demo (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99F33ABD2BA27E47002BA3AA /* Build configuration list for PBXProject "Fetch Food App Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F33AED2BA27E4C002BA3AA /* Debug */,
+				99F33AEE2BA27E4C002BA3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F33AEF2BA27E4C002BA3AA /* Build configuration list for PBXNativeTarget "Fetch Food App Demo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F33AF02BA27E4C002BA3AA /* Debug */,
+				99F33AF12BA27E4C002BA3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F33AF22BA27E4C002BA3AA /* Build configuration list for PBXNativeTarget "Fetch Food App Demo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F33AF32BA27E4C002BA3AA /* Debug */,
+				99F33AF42BA27E4C002BA3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F33AF52BA27E4C002BA3AA /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F33AF62BA27E4C002BA3AA /* Debug */,
+				99F33AF72BA27E4C002BA3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F33AF82BA27E4C002BA3AA /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F33AF92BA27E4C002BA3AA /* Debug */,
+				99F33AFA2BA27E4C002BA3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99F33ABA2BA27E47002BA3AA /* Project object */;
+}
