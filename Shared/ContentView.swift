@@ -7,15 +7,29 @@
 
 import SwiftUI
 
+class ViewModel: ObservableObject {
+    
+    func fetch() {
+        guard let url = url(string:)
+    }
+}
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}sss
+        NavigationView{
+            List{
+                
+            }
+            .navigationTitle("Food Finder")
+        }
+}
+
+    
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
+
 }
